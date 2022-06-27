@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutricao</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <h1 class="marca-nome">Nutri Life</h1>
+  <section class="container">
+    <div class="cabeca-lista">
+      <h2>Nome</h2>
+      <h2>Altura</h2>
+        <h2>Peso</h2>
+        <h2>Percentual de gordura(%)</h2>
+        <h2>imc</h2>
+      </div>
+      <div class="clientes">
+        <div class="info-box" id="info">
+          <P class="info-nome" >Roberto</P>
+          <P class="info-altura" >2.0</P>
+          <P class="info-peso" >2000</P>
+          <P class="info-gordura" >20</P>
+          <P class="info-imc" name="imc"></P>
+        </div>
+        <div class="info-box" id="info">
+          <P class="info-nome" >Joelma</P>
+          <P class="info-altura" >1.56</P>
+          <P class="info-peso" >68</P>
+          <P class="info-gordura" >18</P>
+          <P class="info-imc" name="imc"></P>
+        </div>
+        <div class="info-box" id="info">
+          <P class="info-nome" >Paulo</P>
+          <P class="info-altura" >1.75</P>
+          <P class="info-peso" >70</P>
+          <P class="info-gordura" >21</P>
+          <P class="info-imc"></P>
+        </div>
+      </div>
+      <form id="form-adiciona">
+        <div class="dados_box">
+          <div id="dados">
+            <label for="">Nome</label>
+            <input type="text" name="nome">
+          </div>
+          <div id="dados">
+            <label for="">altura</label>
+          <input type="number" name="altura">
+        </div>
+        <div id="dados">
+          <label for="">Peso</label>
+          <input type="number" name="peso">
+        </div>
+        <div id="dados">
+          <label for="">Gordura</label>
+          <input type="number" name="gordura">
+        </div>
+      </div>
+        <input type="submit" class="botao" value="cadastrar">
+    </form>
+  </section>
+  <script src="./js/remove-paciente.js"></script>
+  <script src="./js/filtra.js"></script>
+  <script src="./js/calcular-imc.js"></script>
+  <script src="./js/buscar-paciente.js"></script>
+  <script src="./js//controle.js"></script>
+</body>
+</html>

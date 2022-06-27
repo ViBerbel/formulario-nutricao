@@ -1,0 +1,126 @@
+body{
+  background: url(https://images.pexels.com/photos/204692/pexels-photo-204692.jpeg?cs=srgb&dl=pexels-pineapple-supply-co-204692.jpg&fm=jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cabeca-lista{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 2.5px;
+  height: 70px;
+  border-radius: 5px;
+  background: rgba(4, 45, 53, 0.7);
+  color: aliceblue;
+}
+
+.cabeca-lista h2{
+  width: 20%;
+  text-align: center;
+}
+
+.container{
+  margin: 30px;
+}
+
+.info-box{
+  display: flex;
+}
+
+.info-box p{
+  width: 20%;
+  text-align: center;
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+}
+
+.info-nome{
+}
+
+.info-imc{
+
+}
+
+form{
+  background: rgba(0, 0, 0, 0.50);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+form label{
+  font-size: 20px;
+}
+
+.clientes{
+  height: 55vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 0.5rem;
+  background: rgba(4, 45, 53, 0.7);
+  color: aliceblue;
+}
+
+.cadastro-novo-cliente{
+  height: 200px;
+}
+
+.cadastro-novo-cliente h2{
+  border-bottom: solid;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+.botao{
+  border: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 20%;
+  height: 5vh;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+  margin-top: 20px;
+}
+
+.marca-nome{
+  color: rgb(52, 252, 185);
+  background-color: azure;
+  width: 200px;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.flex-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-info-gordura{
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.data-erro{
+  color: red;
+  background: rgba(255, 0, 0, 0.2);
+}
+
+#form-adiciona{
+  padding: 1rem;
+}
+
+.dados_box{
+  display: flex;
+  justify-content: space-around;
+  
+}
